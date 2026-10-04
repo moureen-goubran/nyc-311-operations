@@ -1,2 +1,0 @@
-total_requests,distinct_keys,missing_closed_date,negative_duration,zero_duration,not_closed_but_has_date,unspecified_borough,first_created,last_created,snapshot_time
-323608,323608,46714,211,5461,5812,399,2026-09-01T00:00:05.000,2026-09-30T23:59:58.000,2026-10-03T01:49:46.000

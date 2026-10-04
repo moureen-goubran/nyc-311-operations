@@ -1,6 +1,0 @@
-borough,requests,population,requests_per_10k,still_open,median_hours,closed_within_7d_pct,closed_within_7d_excl_nypd_pct,nypd_share_pct
-BRONX,58496,1472654,397.2,6947,5.8,77.1,55.8,47.8
-BROOKLYN,103785,2736074,379.3,15295,4.1,78.1,56.1,49.1
-MANHATTAN,64054,1694251,378.1,11318,3.8,75.5,58.2,40.5
-QUEENS,78572,2405464,326.6,12278,3.6,80.1,56.6,52.8
-STATEN ISLAND,12638,495747,254.9,2492,8.3,76.1,63.0,34.1
