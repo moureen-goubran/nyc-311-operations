@@ -1,0 +1,1960 @@
+{
+ "data_quality": [
+  {
+   "total_requests": 323608,
+   "distinct_keys": 323608,
+   "missing_closed_date": 46714,
+   "negative_duration": 211,
+   "zero_duration": 5461,
+   "not_closed_but_has_date": 5812,
+   "unspecified_borough": 399,
+   "first_created": "2026-09-01T00:00:05.000",
+   "last_created": "2026-09-30T23:59:58.000",
+   "snapshot_time": "2026-10-03T01:49:46.000"
+  }
+ ],
+ "agency_performance": [
+  {
+   "agency": "NYPD",
+   "requests": 150673,
+   "share_of_volume_pct": 47.4,
+   "still_open": 7,
+   "median_hours": 1.4,
+   "p90_hours": 7.1,
+   "cohort_n": 128278,
+   "closed_within_7d_pct": 100.0,
+   "backlog_rank": 14
+  },
+  {
+   "agency": "HPD",
+   "requests": 55615,
+   "share_of_volume_pct": 17.5,
+   "still_open": 17144,
+   "median_hours": 129.5,
+   "p90_hours": 381.8,
+   "cohort_n": 45054,
+   "closed_within_7d_pct": 43.4,
+   "backlog_rank": 1
+  },
+  {
+   "agency": "DSNY",
+   "requests": 28878,
+   "share_of_volume_pct": 9.1,
+   "still_open": 1800,
+   "median_hours": 41.7,
+   "p90_hours": 120.9,
+   "cohort_n": 24931,
+   "closed_within_7d_pct": 91.0,
+   "backlog_rank": 7
+  },
+  {
+   "agency": "DOT",
+   "requests": 21459,
+   "share_of_volume_pct": 6.7,
+   "still_open": 5407,
+   "median_hours": 49.7,
+   "p90_hours": 240.1,
+   "cohort_n": 17683,
+   "closed_within_7d_pct": 56.8,
+   "backlog_rank": 3
+  },
+  {
+   "agency": "DPR",
+   "requests": 18095,
+   "share_of_volume_pct": 5.7,
+   "still_open": 10932,
+   "median_hours": 27.8,
+   "p90_hours": 259.5,
+   "cohort_n": 13216,
+   "closed_within_7d_pct": 28.5,
+   "backlog_rank": 2
+  },
+  {
+   "agency": "DEP",
+   "requests": 17950,
+   "share_of_volume_pct": 5.6,
+   "still_open": 3692,
+   "median_hours": 22.3,
+   "p90_hours": 168.5,
+   "cohort_n": 14914,
+   "closed_within_7d_pct": 73.7,
+   "backlog_rank": 5
+  },
+  {
+   "agency": "DOHMH",
+   "requests": 7921,
+   "share_of_volume_pct": 2.5,
+   "still_open": 3954,
+   "median_hours": 93.8,
+   "p90_hours": 361.5,
+   "cohort_n": 6693,
+   "closed_within_7d_pct": 34.4,
+   "backlog_rank": 4
+  },
+  {
+   "agency": "DOB",
+   "requests": 5614,
+   "share_of_volume_pct": 1.8,
+   "still_open": 535,
+   "median_hours": 54.5,
+   "p90_hours": 300.0,
+   "cohort_n": 5093,
+   "closed_within_7d_pct": 71.0,
+   "backlog_rank": 9
+  },
+  {
+   "agency": "DHS",
+   "requests": 5453,
+   "share_of_volume_pct": 1.7,
+   "still_open": 318,
+   "median_hours": 5.2,
+   "p90_hours": 17.1,
+   "cohort_n": 4340,
+   "closed_within_7d_pct": 92.5,
+   "backlog_rank": 12
+  },
+  {
+   "agency": "TLC",
+   "requests": 3329,
+   "share_of_volume_pct": 1.0,
+   "still_open": 2742,
+   "median_hours": 76.5,
+   "p90_hours": 133.7,
+   "cohort_n": 2697,
+   "closed_within_7d_pct": 17.9,
+   "backlog_rank": 6
+  },
+  {
+   "agency": "DCWP",
+   "requests": 2006,
+   "share_of_volume_pct": 0.6,
+   "still_open": 1154,
+   "median_hours": 35.0,
+   "p90_hours": 505.2,
+   "cohort_n": 1681,
+   "closed_within_7d_pct": 34.3,
+   "backlog_rank": 8
+  },
+  {
+   "agency": "EDC",
+   "requests": 484,
+   "share_of_volume_pct": 0.2,
+   "still_open": 484,
+   "median_hours": NaN,
+   "p90_hours": NaN,
+   "cohort_n": 395,
+   "closed_within_7d_pct": 0.0,
+   "backlog_rank": 10
+  },
+  {
+   "agency": "OOS",
+   "requests": 433,
+   "share_of_volume_pct": 0.1,
+   "still_open": 364,
+   "median_hours": 194.3,
+   "p90_hours": 458.9,
+   "cohort_n": 372,
+   "closed_within_7d_pct": 8.1,
+   "backlog_rank": 11
+  },
+  {
+   "agency": "OTI",
+   "requests": 26,
+   "share_of_volume_pct": 0.0,
+   "still_open": 20,
+   "median_hours": 76.4,
+   "p90_hours": 221.8,
+   "cohort_n": 21,
+   "closed_within_7d_pct": 23.8,
+   "backlog_rank": 13
+  }
+ ],
+ "complaint_types": [
+  {
+   "complaint_type": "Illegal Parking",
+   "lead_agency": "NYPD",
+   "requests": 53276,
+   "still_open": 3,
+   "median_hours": 1.7,
+   "p90_hours": 8.2,
+   "closed_within_7d_pct": 100.0
+  },
+  {
+   "complaint_type": "Noise - Residential",
+   "lead_agency": "NYPD",
+   "requests": 31602,
+   "still_open": 3,
+   "median_hours": 1.2,
+   "p90_hours": 6.1,
+   "closed_within_7d_pct": 100.0
+  },
+  {
+   "complaint_type": "Noise - Street/Sidewalk",
+   "lead_agency": "NYPD",
+   "requests": 19039,
+   "still_open": 0,
+   "median_hours": 1.0,
+   "p90_hours": 5.1,
+   "closed_within_7d_pct": 100.0
+  },
+  {
+   "complaint_type": "Blocked Driveway",
+   "lead_agency": "NYPD",
+   "requests": 16331,
+   "still_open": 0,
+   "median_hours": 1.7,
+   "p90_hours": 8.1,
+   "closed_within_7d_pct": 100.0
+  },
+  {
+   "complaint_type": "UNSANITARY CONDITION",
+   "lead_agency": "HPD",
+   "requests": 14192,
+   "still_open": 4622,
+   "median_hours": 159.7,
+   "p90_hours": 407.5,
+   "closed_within_7d_pct": 37.0
+  },
+  {
+   "complaint_type": "Street Condition",
+   "lead_agency": "DOT",
+   "requests": 7572,
+   "still_open": 865,
+   "median_hours": 41.8,
+   "p90_hours": 146.5,
+   "closed_within_7d_pct": 83.7
+  },
+  {
+   "complaint_type": "Dirty Condition",
+   "lead_agency": "DSNY",
+   "requests": 6962,
+   "still_open": 328,
+   "median_hours": 49.5,
+   "p90_hours": 126.3,
+   "closed_within_7d_pct": 92.6
+  },
+  {
+   "complaint_type": "PAINT/PLASTER",
+   "lead_agency": "HPD",
+   "requests": 6595,
+   "still_open": 1780,
+   "median_hours": 129.0,
+   "p90_hours": 362.2,
+   "closed_within_7d_pct": 46.9
+  },
+  {
+   "complaint_type": "PLUMBING",
+   "lead_agency": "HPD",
+   "requests": 6588,
+   "still_open": 2091,
+   "median_hours": 127.6,
+   "p90_hours": 376.3,
+   "closed_within_7d_pct": 43.6
+  },
+  {
+   "complaint_type": "Abandoned Vehicle",
+   "lead_agency": "NYPD",
+   "requests": 6476,
+   "still_open": 0,
+   "median_hours": 2.4,
+   "p90_hours": 10.2,
+   "closed_within_7d_pct": 100.0
+  },
+  {
+   "complaint_type": "Damaged Tree",
+   "lead_agency": "DPR",
+   "requests": 6089,
+   "still_open": 2916,
+   "median_hours": 25.9,
+   "p90_hours": 145.1,
+   "closed_within_7d_pct": 33.8
+  },
+  {
+   "complaint_type": "Noise",
+   "lead_agency": "DEP",
+   "requests": 5915,
+   "still_open": 661,
+   "median_hours": 55.7,
+   "p90_hours": 177.6,
+   "closed_within_7d_pct": 77.1
+  },
+  {
+   "complaint_type": "Noise - Commercial",
+   "lead_agency": "NYPD",
+   "requests": 5874,
+   "still_open": 0,
+   "median_hours": 0.9,
+   "p90_hours": 4.3,
+   "closed_within_7d_pct": 100.0
+  },
+  {
+   "complaint_type": "Noise - Vehicle",
+   "lead_agency": "NYPD",
+   "requests": 5414,
+   "still_open": 0,
+   "median_hours": 0.9,
+   "p90_hours": 4.7,
+   "closed_within_7d_pct": 100.0
+  },
+  {
+   "complaint_type": "Encampment",
+   "lead_agency": "NYPD",
+   "requests": 5372,
+   "still_open": 315,
+   "median_hours": 2.2,
+   "p90_hours": 9.9,
+   "closed_within_7d_pct": 93.3
+  },
+  {
+   "complaint_type": "Water Maintenance",
+   "lead_agency": "DEP",
+   "requests": 5212,
+   "still_open": 865,
+   "median_hours": 7.1,
+   "p90_hours": 110.5,
+   "closed_within_7d_pct": 80.7
+  },
+  {
+   "complaint_type": "HEAT/HOT WATER",
+   "lead_agency": "HPD",
+   "requests": 4862,
+   "still_open": 296,
+   "median_hours": 34.4,
+   "p90_hours": 79.5,
+   "closed_within_7d_pct": 92.9
+  },
+  {
+   "complaint_type": "WATER LEAK",
+   "lead_agency": "HPD",
+   "requests": 4825,
+   "still_open": 1747,
+   "median_hours": 143.4,
+   "p90_hours": 383.5,
+   "closed_within_7d_pct": 40.4
+  },
+  {
+   "complaint_type": "DOOR/WINDOW",
+   "lead_agency": "HPD",
+   "requests": 4572,
+   "still_open": 1655,
+   "median_hours": 154.9,
+   "p90_hours": 402.8,
+   "closed_within_7d_pct": 36.5
+  },
+  {
+   "complaint_type": "Street Light Condition",
+   "lead_agency": "DOT",
+   "requests": 4477,
+   "still_open": 2334,
+   "median_hours": 203.4,
+   "p90_hours": 239.9,
+   "closed_within_7d_pct": 12.6
+  },
+  {
+   "complaint_type": "Illegal Dumping",
+   "lead_agency": "DSNY",
+   "requests": 4119,
+   "still_open": 175,
+   "median_hours": 51.8,
+   "p90_hours": 145.1,
+   "closed_within_7d_pct": 90.1
+  },
+  {
+   "complaint_type": "GENERAL",
+   "lead_agency": "HPD",
+   "requests": 4050,
+   "still_open": 1507,
+   "median_hours": 173.5,
+   "p90_hours": 452.9,
+   "closed_within_7d_pct": 31.0
+  },
+  {
+   "complaint_type": "Homeless Person Assistance",
+   "lead_agency": "DHS",
+   "requests": 3774,
+   "still_open": 4,
+   "median_hours": 4.7,
+   "p90_hours": 17.0,
+   "closed_within_7d_pct": 99.9
+  },
+  {
+   "complaint_type": "Traffic Signal Condition",
+   "lead_agency": "DOT",
+   "requests": 3590,
+   "still_open": 247,
+   "median_hours": 2.4,
+   "p90_hours": 36.2,
+   "closed_within_7d_pct": 92.9
+  },
+  {
+   "complaint_type": "Overgrown Tree/Branches",
+   "lead_agency": "DPR",
+   "requests": 3491,
+   "still_open": 3070,
+   "median_hours": 65.5,
+   "p90_hours": 313.1,
+   "closed_within_7d_pct": 10.3
+  },
+  {
+   "complaint_type": "Missed Collection",
+   "lead_agency": "DSNY",
+   "requests": 3330,
+   "still_open": 40,
+   "median_hours": 42.6,
+   "p90_hours": 96.6,
+   "closed_within_7d_pct": 98.3
+  },
+  {
+   "complaint_type": "Sewer Maintenance",
+   "lead_agency": "DEP",
+   "requests": 3083,
+   "still_open": 641,
+   "median_hours": 4.6,
+   "p90_hours": 91.8,
+   "closed_within_7d_pct": 80.7
+  },
+  {
+   "complaint_type": "ELECTRIC",
+   "lead_agency": "HPD",
+   "requests": 3065,
+   "still_open": 943,
+   "median_hours": 118.2,
+   "p90_hours": 378.7,
+   "closed_within_7d_pct": 46.9
+  },
+  {
+   "complaint_type": "Derelict Vehicles",
+   "lead_agency": "DSNY",
+   "requests": 2960,
+   "still_open": 3,
+   "median_hours": 22.2,
+   "p90_hours": 69.4,
+   "closed_within_7d_pct": 99.6
+  },
+  {
+   "complaint_type": "Maintenance or Facility",
+   "lead_agency": "DPR",
+   "requests": 2934,
+   "still_open": 1464,
+   "median_hours": 147.0,
+   "p90_hours": 384.3,
+   "closed_within_7d_pct": 26.1
+  },
+  {
+   "complaint_type": "FLOORING/STAIRS",
+   "lead_agency": "HPD",
+   "requests": 2733,
+   "still_open": 926,
+   "median_hours": 170.4,
+   "p90_hours": 406.9,
+   "closed_within_7d_pct": 33.6
+  },
+  {
+   "complaint_type": "Rodent",
+   "lead_agency": "DOHMH",
+   "requests": 2670,
+   "still_open": 1059,
+   "median_hours": 156.5,
+   "p90_hours": 376.9,
+   "closed_within_7d_pct": 33.2
+  },
+  {
+   "complaint_type": "Sidewalk Condition",
+   "lead_agency": "DOT",
+   "requests": 2593,
+   "still_open": 716,
+   "median_hours": 175.1,
+   "p90_hours": 457.2,
+   "closed_within_7d_pct": 35.4
+  },
+  {
+   "complaint_type": "Obstruction",
+   "lead_agency": "DSNY",
+   "requests": 2576,
+   "still_open": 170,
+   "median_hours": 44.8,
+   "p90_hours": 123.8,
+   "closed_within_7d_pct": 89.1
+  },
+  {
+   "complaint_type": "APPLIANCE",
+   "lead_agency": "HPD",
+   "requests": 2500,
+   "still_open": 1051,
+   "median_hours": 173.6,
+   "p90_hours": 434.1,
+   "closed_within_7d_pct": 28.5
+  },
+  {
+   "complaint_type": "General Construction/Plumbing",
+   "lead_agency": "DOB",
+   "requests": 2368,
+   "still_open": 234,
+   "median_hours": 37.3,
+   "p90_hours": 270.8,
+   "closed_within_7d_pct": 72.6
+  },
+  {
+   "complaint_type": "Vendor Enforcement",
+   "lead_agency": "DSNY",
+   "requests": 2154,
+   "still_open": 0,
+   "median_hours": 0.3,
+   "p90_hours": 0.5,
+   "closed_within_7d_pct": 100.0
+  },
+  {
+   "complaint_type": "Non-Emergency Police Matter",
+   "lead_agency": "NYPD",
+   "requests": 2126,
+   "still_open": 0,
+   "median_hours": 1.6,
+   "p90_hours": 7.6,
+   "closed_within_7d_pct": 100.0
+  },
+  {
+   "complaint_type": "Consumer Complaint",
+   "lead_agency": "DCWP",
+   "requests": 2006,
+   "still_open": 1154,
+   "median_hours": 35.0,
+   "p90_hours": 505.2,
+   "closed_within_7d_pct": 34.3
+  },
+  {
+   "complaint_type": "Illegal Tree Damage",
+   "lead_agency": "DPR",
+   "requests": 1738,
+   "still_open": 959,
+   "median_hours": 20.8,
+   "p90_hours": 52.6,
+   "closed_within_7d_pct": 45.8
+  },
+  {
+   "complaint_type": "Lead",
+   "lead_agency": "DEP",
+   "requests": 1660,
+   "still_open": 1217,
+   "median_hours": 159.1,
+   "p90_hours": 446.4,
+   "closed_within_7d_pct": 18.0
+  },
+  {
+   "complaint_type": "For Hire Vehicle Complaint",
+   "lead_agency": "TLC",
+   "requests": 1640,
+   "still_open": 1638,
+   "median_hours": 45.9,
+   "p90_hours": 168.1,
+   "closed_within_7d_pct": 0.1
+  },
+  {
+   "complaint_type": "Dead/Dying Tree",
+   "lead_agency": "DPR",
+   "requests": 1392,
+   "still_open": 1107,
+   "median_hours": 140.5,
+   "p90_hours": 477.2,
+   "closed_within_7d_pct": 12.4
+  },
+  {
+   "complaint_type": "Residential Disposal Complaint",
+   "lead_agency": "DSNY",
+   "requests": 1385,
+   "still_open": 105,
+   "median_hours": 46.8,
+   "p90_hours": 145.6,
+   "closed_within_7d_pct": 88.1
+  },
+  {
+   "complaint_type": "Food Establishment",
+   "lead_agency": "DOHMH",
+   "requests": 1366,
+   "still_open": 1308,
+   "median_hours": 185.6,
+   "p90_hours": 627.5,
+   "closed_within_7d_pct": 2.0
+  },
+  {
+   "complaint_type": "Graffiti",
+   "lead_agency": "DSNY",
+   "requests": 1311,
+   "still_open": 605,
+   "median_hours": 86.7,
+   "p90_hours": 254.8,
+   "closed_within_7d_pct": 46.9
+  },
+  {
+   "complaint_type": "Panhandling",
+   "lead_agency": "NYPD",
+   "requests": 1290,
+   "still_open": 0,
+   "median_hours": 0.8,
+   "p90_hours": 4.7,
+   "closed_within_7d_pct": 100.0
+  },
+  {
+   "complaint_type": "SAFETY",
+   "lead_agency": "HPD",
+   "requests": 1260,
+   "still_open": 401,
+   "median_hours": 136.3,
+   "p90_hours": 378.0,
+   "closed_within_7d_pct": 45.7
+  },
+  {
+   "complaint_type": "Elevator",
+   "lead_agency": "DOB",
+   "requests": 1215,
+   "still_open": 11,
+   "median_hours": 49.7,
+   "p90_hours": 228.8,
+   "closed_within_7d_pct": 84.1
+  },
+  {
+   "complaint_type": "Traffic",
+   "lead_agency": "NYPD",
+   "requests": 1162,
+   "still_open": 0,
+   "median_hours": 0.7,
+   "p90_hours": 4.6,
+   "closed_within_7d_pct": 100.0
+  },
+  {
+   "complaint_type": "Dead Animal",
+   "lead_agency": "DSNY",
+   "requests": 1146,
+   "still_open": 15,
+   "median_hours": 41.0,
+   "p90_hours": 93.2,
+   "closed_within_7d_pct": 99.1
+  },
+  {
+   "complaint_type": "Root/Sewer/Sidewalk Condition",
+   "lead_agency": "DPR",
+   "requests": 1126,
+   "still_open": 1114,
+   "median_hours": 261.9,
+   "p90_hours": 577.0,
+   "closed_within_7d_pct": 0.2
+  },
+  {
+   "complaint_type": "Air Quality",
+   "lead_agency": "DEP",
+   "requests": 1098,
+   "still_open": 64,
+   "median_hours": 31.8,
+   "p90_hours": 137.8,
+   "closed_within_7d_pct": 92.6
+  },
+  {
+   "complaint_type": "Animal-Abuse",
+   "lead_agency": "NYPD",
+   "requests": 1097,
+   "still_open": 0,
+   "median_hours": 2.0,
+   "p90_hours": 9.0,
+   "closed_within_7d_pct": 100.0
+  },
+  {
+   "complaint_type": "Indoor Air Quality",
+   "lead_agency": "DOHMH",
+   "requests": 942,
+   "still_open": 10,
+   "median_hours": 46.6,
+   "p90_hours": 98.0,
+   "closed_within_7d_pct": 97.1
+  },
+  {
+   "complaint_type": "Noise - Park",
+   "lead_agency": "NYPD",
+   "requests": 935,
+   "still_open": 0,
+   "median_hours": 1.2,
+   "p90_hours": 5.2,
+   "closed_within_7d_pct": 100.0
+  },
+  {
+   "complaint_type": "Curb Condition",
+   "lead_agency": "DOT",
+   "requests": 793,
+   "still_open": 406,
+   "median_hours": 387.1,
+   "p90_hours": 526.3,
+   "closed_within_7d_pct": 1.3
+  },
+  {
+   "complaint_type": "Drug Activity",
+   "lead_agency": "NYPD",
+   "requests": 788,
+   "still_open": 0,
+   "median_hours": 1.2,
+   "p90_hours": 6.2,
+   "closed_within_7d_pct": 100.0
+  },
+  {
+   "complaint_type": "Street Sweeping Complaint",
+   "lead_agency": "DSNY",
+   "requests": 767,
+   "still_open": 63,
+   "median_hours": 52.8,
+   "p90_hours": 147.7,
+   "closed_within_7d_pct": 87.5
+  },
+  {
+   "complaint_type": "Building/Use",
+   "lead_agency": "DOB",
+   "requests": 717,
+   "still_open": 190,
+   "median_hours": 103.8,
+   "p90_hours": 589.9,
+   "closed_within_7d_pct": 41.8
+  },
+  {
+   "complaint_type": "Lost Property",
+   "lead_agency": "TLC",
+   "requests": 576,
+   "still_open": 3,
+   "median_hours": 77.4,
+   "p90_hours": 133.7,
+   "closed_within_7d_pct": 97.9
+  },
+  {
+   "complaint_type": "Smoking or Vaping",
+   "lead_agency": "DOHMH",
+   "requests": 520,
+   "still_open": 471,
+   "median_hours": 195.6,
+   "p90_hours": 488.2,
+   "closed_within_7d_pct": 3.1
+  },
+  {
+   "complaint_type": "Drinking",
+   "lead_agency": "NYPD",
+   "requests": 510,
+   "still_open": 0,
+   "median_hours": 1.5,
+   "p90_hours": 7.6,
+   "closed_within_7d_pct": 100.0
+  }
+ ],
+ "borough": [
+  {
+   "borough": "BRONX",
+   "requests": 58496,
+   "population": 1472654,
+   "requests_per_10k": 397.2,
+   "still_open": 6947,
+   "median_hours": 5.8,
+   "closed_within_7d_pct": 77.1,
+   "closed_within_7d_excl_nypd_pct": 55.8,
+   "nypd_share_pct": 47.8
+  },
+  {
+   "borough": "BROOKLYN",
+   "requests": 103785,
+   "population": 2736074,
+   "requests_per_10k": 379.3,
+   "still_open": 15295,
+   "median_hours": 4.1,
+   "closed_within_7d_pct": 78.1,
+   "closed_within_7d_excl_nypd_pct": 56.1,
+   "nypd_share_pct": 49.1
+  },
+  {
+   "borough": "MANHATTAN",
+   "requests": 64054,
+   "population": 1694251,
+   "requests_per_10k": 378.1,
+   "still_open": 11318,
+   "median_hours": 3.8,
+   "closed_within_7d_pct": 75.5,
+   "closed_within_7d_excl_nypd_pct": 58.2,
+   "nypd_share_pct": 40.5
+  },
+  {
+   "borough": "QUEENS",
+   "requests": 78572,
+   "population": 2405464,
+   "requests_per_10k": 326.6,
+   "still_open": 12278,
+   "median_hours": 3.6,
+   "closed_within_7d_pct": 80.1,
+   "closed_within_7d_excl_nypd_pct": 56.6,
+   "nypd_share_pct": 52.8
+  },
+  {
+   "borough": "STATEN ISLAND",
+   "requests": 12638,
+   "population": 495747,
+   "requests_per_10k": 254.9,
+   "still_open": 2492,
+   "median_hours": 8.3,
+   "closed_within_7d_pct": 76.1,
+   "closed_within_7d_excl_nypd_pct": 63.0,
+   "nypd_share_pct": 34.1
+  }
+ ],
+ "daily_volume": [
+  {
+   "day": "2026-09-01",
+   "weekday": "Tue",
+   "opened": 9721,
+   "opened_7day_avg": 9721.0
+  },
+  {
+   "day": "2026-09-02",
+   "weekday": "Wed",
+   "opened": 9996,
+   "opened_7day_avg": 9859.0
+  },
+  {
+   "day": "2026-09-03",
+   "weekday": "Thu",
+   "opened": 10671,
+   "opened_7day_avg": 10129.0
+  },
+  {
+   "day": "2026-09-04",
+   "weekday": "Fri",
+   "opened": 10363,
+   "opened_7day_avg": 10188.0
+  },
+  {
+   "day": "2026-09-05",
+   "weekday": "Sat",
+   "opened": 9212,
+   "opened_7day_avg": 9993.0
+  },
+  {
+   "day": "2026-09-06",
+   "weekday": "Sun",
+   "opened": 10373,
+   "opened_7day_avg": 10056.0
+  },
+  {
+   "day": "2026-09-07",
+   "weekday": "Mon",
+   "opened": 10541,
+   "opened_7day_avg": 10125.0
+  },
+  {
+   "day": "2026-09-08",
+   "weekday": "Tue",
+   "opened": 11401,
+   "opened_7day_avg": 10365.0
+  },
+  {
+   "day": "2026-09-09",
+   "weekday": "Wed",
+   "opened": 10950,
+   "opened_7day_avg": 10502.0
+  },
+  {
+   "day": "2026-09-10",
+   "weekday": "Thu",
+   "opened": 10626,
+   "opened_7day_avg": 10495.0
+  },
+  {
+   "day": "2026-09-11",
+   "weekday": "Fri",
+   "opened": 11430,
+   "opened_7day_avg": 10648.0
+  },
+  {
+   "day": "2026-09-12",
+   "weekday": "Sat",
+   "opened": 11578,
+   "opened_7day_avg": 10986.0
+  },
+  {
+   "day": "2026-09-13",
+   "weekday": "Sun",
+   "opened": 9474,
+   "opened_7day_avg": 10857.0
+  },
+  {
+   "day": "2026-09-14",
+   "weekday": "Mon",
+   "opened": 11449,
+   "opened_7day_avg": 10987.0
+  },
+  {
+   "day": "2026-09-15",
+   "weekday": "Tue",
+   "opened": 10273,
+   "opened_7day_avg": 10826.0
+  },
+  {
+   "day": "2026-09-16",
+   "weekday": "Wed",
+   "opened": 11375,
+   "opened_7day_avg": 10886.0
+  },
+  {
+   "day": "2026-09-17",
+   "weekday": "Thu",
+   "opened": 11241,
+   "opened_7day_avg": 10974.0
+  },
+  {
+   "day": "2026-09-18",
+   "weekday": "Fri",
+   "opened": 11654,
+   "opened_7day_avg": 11006.0
+  },
+  {
+   "day": "2026-09-19",
+   "weekday": "Sat",
+   "opened": 10632,
+   "opened_7day_avg": 10871.0
+  },
+  {
+   "day": "2026-09-20",
+   "weekday": "Sun",
+   "opened": 8731,
+   "opened_7day_avg": 10765.0
+  },
+  {
+   "day": "2026-09-21",
+   "weekday": "Mon",
+   "opened": 10421,
+   "opened_7day_avg": 10618.0
+  },
+  {
+   "day": "2026-09-22",
+   "weekday": "Tue",
+   "opened": 10814,
+   "opened_7day_avg": 10695.0
+  },
+  {
+   "day": "2026-09-23",
+   "weekday": "Wed",
+   "opened": 10941,
+   "opened_7day_avg": 10633.0
+  },
+  {
+   "day": "2026-09-24",
+   "weekday": "Thu",
+   "opened": 10610,
+   "opened_7day_avg": 10543.0
+  },
+  {
+   "day": "2026-09-25",
+   "weekday": "Fri",
+   "opened": 10891,
+   "opened_7day_avg": 10434.0
+  },
+  {
+   "day": "2026-09-26",
+   "weekday": "Sat",
+   "opened": 8758,
+   "opened_7day_avg": 10167.0
+  },
+  {
+   "day": "2026-09-27",
+   "weekday": "Sun",
+   "opened": 9121,
+   "opened_7day_avg": 10222.0
+  },
+  {
+   "day": "2026-09-28",
+   "weekday": "Mon",
+   "opened": 11527,
+   "opened_7day_avg": 10380.0
+  },
+  {
+   "day": "2026-09-29",
+   "weekday": "Tue",
+   "opened": 11648,
+   "opened_7day_avg": 10499.0
+  },
+  {
+   "day": "2026-09-30",
+   "weekday": "Wed",
+   "opened": 11514,
+   "opened_7day_avg": 10581.0
+  }
+ ],
+ "when_requests_arrive": [
+  {
+   "dow": 0,
+   "hour_of_day": 0,
+   "requests": 2390
+  },
+  {
+   "dow": 0,
+   "hour_of_day": 1,
+   "requests": 1696
+  },
+  {
+   "dow": 0,
+   "hour_of_day": 2,
+   "requests": 1170
+  },
+  {
+   "dow": 0,
+   "hour_of_day": 3,
+   "requests": 788
+  },
+  {
+   "dow": 0,
+   "hour_of_day": 4,
+   "requests": 616
+  },
+  {
+   "dow": 0,
+   "hour_of_day": 5,
+   "requests": 526
+  },
+  {
+   "dow": 0,
+   "hour_of_day": 6,
+   "requests": 629
+  },
+  {
+   "dow": 0,
+   "hour_of_day": 7,
+   "requests": 960
+  },
+  {
+   "dow": 0,
+   "hour_of_day": 8,
+   "requests": 1310
+  },
+  {
+   "dow": 0,
+   "hour_of_day": 9,
+   "requests": 1696
+  },
+  {
+   "dow": 0,
+   "hour_of_day": 10,
+   "requests": 1794
+  },
+  {
+   "dow": 0,
+   "hour_of_day": 11,
+   "requests": 1846
+  },
+  {
+   "dow": 0,
+   "hour_of_day": 12,
+   "requests": 1980
+  },
+  {
+   "dow": 0,
+   "hour_of_day": 13,
+   "requests": 1859
+  },
+  {
+   "dow": 0,
+   "hour_of_day": 14,
+   "requests": 1853
+  },
+  {
+   "dow": 0,
+   "hour_of_day": 15,
+   "requests": 1838
+  },
+  {
+   "dow": 0,
+   "hour_of_day": 16,
+   "requests": 1757
+  },
+  {
+   "dow": 0,
+   "hour_of_day": 17,
+   "requests": 1831
+  },
+  {
+   "dow": 0,
+   "hour_of_day": 18,
+   "requests": 1810
+  },
+  {
+   "dow": 0,
+   "hour_of_day": 19,
+   "requests": 1792
+  },
+  {
+   "dow": 0,
+   "hour_of_day": 20,
+   "requests": 1951
+  },
+  {
+   "dow": 0,
+   "hour_of_day": 21,
+   "requests": 2150
+  },
+  {
+   "dow": 0,
+   "hour_of_day": 22,
+   "requests": 2128
+  },
+  {
+   "dow": 0,
+   "hour_of_day": 23,
+   "requests": 1786
+  },
+  {
+   "dow": 1,
+   "hour_of_day": 0,
+   "requests": 1488
+  },
+  {
+   "dow": 1,
+   "hour_of_day": 1,
+   "requests": 931
+  },
+  {
+   "dow": 1,
+   "hour_of_day": 2,
+   "requests": 666
+  },
+  {
+   "dow": 1,
+   "hour_of_day": 3,
+   "requests": 489
+  },
+  {
+   "dow": 1,
+   "hour_of_day": 4,
+   "requests": 512
+  },
+  {
+   "dow": 1,
+   "hour_of_day": 5,
+   "requests": 606
+  },
+  {
+   "dow": 1,
+   "hour_of_day": 6,
+   "requests": 871
+  },
+  {
+   "dow": 1,
+   "hour_of_day": 7,
+   "requests": 1386
+  },
+  {
+   "dow": 1,
+   "hour_of_day": 8,
+   "requests": 2244
+  },
+  {
+   "dow": 1,
+   "hour_of_day": 9,
+   "requests": 2626
+  },
+  {
+   "dow": 1,
+   "hour_of_day": 10,
+   "requests": 2806
+  },
+  {
+   "dow": 1,
+   "hour_of_day": 11,
+   "requests": 2749
+  },
+  {
+   "dow": 1,
+   "hour_of_day": 12,
+   "requests": 2633
+  },
+  {
+   "dow": 1,
+   "hour_of_day": 13,
+   "requests": 2388
+  },
+  {
+   "dow": 1,
+   "hour_of_day": 14,
+   "requests": 2464
+  },
+  {
+   "dow": 1,
+   "hour_of_day": 15,
+   "requests": 2711
+  },
+  {
+   "dow": 1,
+   "hour_of_day": 16,
+   "requests": 2303
+  },
+  {
+   "dow": 1,
+   "hour_of_day": 17,
+   "requests": 2311
+  },
+  {
+   "dow": 1,
+   "hour_of_day": 18,
+   "requests": 2101
+  },
+  {
+   "dow": 1,
+   "hour_of_day": 19,
+   "requests": 2087
+  },
+  {
+   "dow": 1,
+   "hour_of_day": 20,
+   "requests": 2206
+  },
+  {
+   "dow": 1,
+   "hour_of_day": 21,
+   "requests": 2374
+  },
+  {
+   "dow": 1,
+   "hour_of_day": 22,
+   "requests": 2186
+  },
+  {
+   "dow": 1,
+   "hour_of_day": 23,
+   "requests": 1557
+  },
+  {
+   "dow": 2,
+   "hour_of_day": 0,
+   "requests": 1501
+  },
+  {
+   "dow": 2,
+   "hour_of_day": 1,
+   "requests": 903
+  },
+  {
+   "dow": 2,
+   "hour_of_day": 2,
+   "requests": 601
+  },
+  {
+   "dow": 2,
+   "hour_of_day": 3,
+   "requests": 504
+  },
+  {
+   "dow": 2,
+   "hour_of_day": 4,
+   "requests": 531
+  },
+  {
+   "dow": 2,
+   "hour_of_day": 5,
+   "requests": 727
+  },
+  {
+   "dow": 2,
+   "hour_of_day": 6,
+   "requests": 1207
+  },
+  {
+   "dow": 2,
+   "hour_of_day": 7,
+   "requests": 2365
+  },
+  {
+   "dow": 2,
+   "hour_of_day": 8,
+   "requests": 3137
+  },
+  {
+   "dow": 2,
+   "hour_of_day": 9,
+   "requests": 3799
+  },
+  {
+   "dow": 2,
+   "hour_of_day": 10,
+   "requests": 3582
+  },
+  {
+   "dow": 2,
+   "hour_of_day": 11,
+   "requests": 3547
+  },
+  {
+   "dow": 2,
+   "hour_of_day": 12,
+   "requests": 3257
+  },
+  {
+   "dow": 2,
+   "hour_of_day": 13,
+   "requests": 3177
+  },
+  {
+   "dow": 2,
+   "hour_of_day": 14,
+   "requests": 3111
+  },
+  {
+   "dow": 2,
+   "hour_of_day": 15,
+   "requests": 3104
+  },
+  {
+   "dow": 2,
+   "hour_of_day": 16,
+   "requests": 3062
+  },
+  {
+   "dow": 2,
+   "hour_of_day": 17,
+   "requests": 2887
+  },
+  {
+   "dow": 2,
+   "hour_of_day": 18,
+   "requests": 2493
+  },
+  {
+   "dow": 2,
+   "hour_of_day": 19,
+   "requests": 2382
+  },
+  {
+   "dow": 2,
+   "hour_of_day": 20,
+   "requests": 2427
+  },
+  {
+   "dow": 2,
+   "hour_of_day": 21,
+   "requests": 2523
+  },
+  {
+   "dow": 2,
+   "hour_of_day": 22,
+   "requests": 2392
+  },
+  {
+   "dow": 2,
+   "hour_of_day": 23,
+   "requests": 1809
+  },
+  {
+   "dow": 3,
+   "hour_of_day": 0,
+   "requests": 1372
+  },
+  {
+   "dow": 3,
+   "hour_of_day": 1,
+   "requests": 855
+  },
+  {
+   "dow": 3,
+   "hour_of_day": 2,
+   "requests": 587
+  },
+  {
+   "dow": 3,
+   "hour_of_day": 3,
+   "requests": 481
+  },
+  {
+   "dow": 3,
+   "hour_of_day": 4,
+   "requests": 581
+  },
+  {
+   "dow": 3,
+   "hour_of_day": 5,
+   "requests": 764
+  },
+  {
+   "dow": 3,
+   "hour_of_day": 6,
+   "requests": 1302
+  },
+  {
+   "dow": 3,
+   "hour_of_day": 7,
+   "requests": 2269
+  },
+  {
+   "dow": 3,
+   "hour_of_day": 8,
+   "requests": 3230
+  },
+  {
+   "dow": 3,
+   "hour_of_day": 9,
+   "requests": 3537
+  },
+  {
+   "dow": 3,
+   "hour_of_day": 10,
+   "requests": 3503
+  },
+  {
+   "dow": 3,
+   "hour_of_day": 11,
+   "requests": 3798
+  },
+  {
+   "dow": 3,
+   "hour_of_day": 12,
+   "requests": 3258
+  },
+  {
+   "dow": 3,
+   "hour_of_day": 13,
+   "requests": 3329
+  },
+  {
+   "dow": 3,
+   "hour_of_day": 14,
+   "requests": 3249
+  },
+  {
+   "dow": 3,
+   "hour_of_day": 15,
+   "requests": 3152
+  },
+  {
+   "dow": 3,
+   "hour_of_day": 16,
+   "requests": 2999
+  },
+  {
+   "dow": 3,
+   "hour_of_day": 17,
+   "requests": 2930
+  },
+  {
+   "dow": 3,
+   "hour_of_day": 18,
+   "requests": 2767
+  },
+  {
+   "dow": 3,
+   "hour_of_day": 19,
+   "requests": 2519
+  },
+  {
+   "dow": 3,
+   "hour_of_day": 20,
+   "requests": 2545
+  },
+  {
+   "dow": 3,
+   "hour_of_day": 21,
+   "requests": 2533
+  },
+  {
+   "dow": 3,
+   "hour_of_day": 22,
+   "requests": 2568
+  },
+  {
+   "dow": 3,
+   "hour_of_day": 23,
+   "requests": 1795
+  },
+  {
+   "dow": 4,
+   "hour_of_day": 0,
+   "requests": 1032
+  },
+  {
+   "dow": 4,
+   "hour_of_day": 1,
+   "requests": 661
+  },
+  {
+   "dow": 4,
+   "hour_of_day": 2,
+   "requests": 424
+  },
+  {
+   "dow": 4,
+   "hour_of_day": 3,
+   "requests": 347
+  },
+  {
+   "dow": 4,
+   "hour_of_day": 4,
+   "requests": 462
+  },
+  {
+   "dow": 4,
+   "hour_of_day": 5,
+   "requests": 592
+  },
+  {
+   "dow": 4,
+   "hour_of_day": 6,
+   "requests": 974
+  },
+  {
+   "dow": 4,
+   "hour_of_day": 7,
+   "requests": 1737
+  },
+  {
+   "dow": 4,
+   "hour_of_day": 8,
+   "requests": 2489
+  },
+  {
+   "dow": 4,
+   "hour_of_day": 9,
+   "requests": 2927
+  },
+  {
+   "dow": 4,
+   "hour_of_day": 10,
+   "requests": 2892
+  },
+  {
+   "dow": 4,
+   "hour_of_day": 11,
+   "requests": 3046
+  },
+  {
+   "dow": 4,
+   "hour_of_day": 12,
+   "requests": 2776
+  },
+  {
+   "dow": 4,
+   "hour_of_day": 13,
+   "requests": 2630
+  },
+  {
+   "dow": 4,
+   "hour_of_day": 14,
+   "requests": 2613
+  },
+  {
+   "dow": 4,
+   "hour_of_day": 15,
+   "requests": 2502
+  },
+  {
+   "dow": 4,
+   "hour_of_day": 16,
+   "requests": 2301
+  },
+  {
+   "dow": 4,
+   "hour_of_day": 17,
+   "requests": 2117
+  },
+  {
+   "dow": 4,
+   "hour_of_day": 18,
+   "requests": 2103
+  },
+  {
+   "dow": 4,
+   "hour_of_day": 19,
+   "requests": 2019
+  },
+  {
+   "dow": 4,
+   "hour_of_day": 20,
+   "requests": 1911
+  },
+  {
+   "dow": 4,
+   "hour_of_day": 21,
+   "requests": 2067
+  },
+  {
+   "dow": 4,
+   "hour_of_day": 22,
+   "requests": 1857
+  },
+  {
+   "dow": 4,
+   "hour_of_day": 23,
+   "requests": 1491
+  },
+  {
+   "dow": 5,
+   "hour_of_day": 0,
+   "requests": 1141
+  },
+  {
+   "dow": 5,
+   "hour_of_day": 1,
+   "requests": 772
+  },
+  {
+   "dow": 5,
+   "hour_of_day": 2,
+   "requests": 544
+  },
+  {
+   "dow": 5,
+   "hour_of_day": 3,
+   "requests": 350
+  },
+  {
+   "dow": 5,
+   "hour_of_day": 4,
+   "requests": 415
+  },
+  {
+   "dow": 5,
+   "hour_of_day": 5,
+   "requests": 546
+  },
+  {
+   "dow": 5,
+   "hour_of_day": 6,
+   "requests": 982
+  },
+  {
+   "dow": 5,
+   "hour_of_day": 7,
+   "requests": 1791
+  },
+  {
+   "dow": 5,
+   "hour_of_day": 8,
+   "requests": 2500
+  },
+  {
+   "dow": 5,
+   "hour_of_day": 9,
+   "requests": 3003
+  },
+  {
+   "dow": 5,
+   "hour_of_day": 10,
+   "requests": 2999
+  },
+  {
+   "dow": 5,
+   "hour_of_day": 11,
+   "requests": 2790
+  },
+  {
+   "dow": 5,
+   "hour_of_day": 12,
+   "requests": 2670
+  },
+  {
+   "dow": 5,
+   "hour_of_day": 13,
+   "requests": 2582
+  },
+  {
+   "dow": 5,
+   "hour_of_day": 14,
+   "requests": 2615
+  },
+  {
+   "dow": 5,
+   "hour_of_day": 15,
+   "requests": 2647
+  },
+  {
+   "dow": 5,
+   "hour_of_day": 16,
+   "requests": 2432
+  },
+  {
+   "dow": 5,
+   "hour_of_day": 17,
+   "requests": 2124
+  },
+  {
+   "dow": 5,
+   "hour_of_day": 18,
+   "requests": 1995
+  },
+  {
+   "dow": 5,
+   "hour_of_day": 19,
+   "requests": 1892
+  },
+  {
+   "dow": 5,
+   "hour_of_day": 20,
+   "requests": 1937
+  },
+  {
+   "dow": 5,
+   "hour_of_day": 21,
+   "requests": 2049
+  },
+  {
+   "dow": 5,
+   "hour_of_day": 22,
+   "requests": 2395
+  },
+  {
+   "dow": 5,
+   "hour_of_day": 23,
+   "requests": 2044
+  },
+  {
+   "dow": 6,
+   "hour_of_day": 0,
+   "requests": 1855
+  },
+  {
+   "dow": 6,
+   "hour_of_day": 1,
+   "requests": 1337
+  },
+  {
+   "dow": 6,
+   "hour_of_day": 2,
+   "requests": 752
+  },
+  {
+   "dow": 6,
+   "hour_of_day": 3,
+   "requests": 634
+  },
+  {
+   "dow": 6,
+   "hour_of_day": 4,
+   "requests": 525
+  },
+  {
+   "dow": 6,
+   "hour_of_day": 5,
+   "requests": 534
+  },
+  {
+   "dow": 6,
+   "hour_of_day": 6,
+   "requests": 775
+  },
+  {
+   "dow": 6,
+   "hour_of_day": 7,
+   "requests": 1093
+  },
+  {
+   "dow": 6,
+   "hour_of_day": 8,
+   "requests": 1534
+  },
+  {
+   "dow": 6,
+   "hour_of_day": 9,
+   "requests": 1995
+  },
+  {
+   "dow": 6,
+   "hour_of_day": 10,
+   "requests": 2139
+  },
+  {
+   "dow": 6,
+   "hour_of_day": 11,
+   "requests": 2057
+  },
+  {
+   "dow": 6,
+   "hour_of_day": 12,
+   "requests": 1936
+  },
+  {
+   "dow": 6,
+   "hour_of_day": 13,
+   "requests": 2034
+  },
+  {
+   "dow": 6,
+   "hour_of_day": 14,
+   "requests": 1996
+  },
+  {
+   "dow": 6,
+   "hour_of_day": 15,
+   "requests": 1889
+  },
+  {
+   "dow": 6,
+   "hour_of_day": 16,
+   "requests": 1791
+  },
+  {
+   "dow": 6,
+   "hour_of_day": 17,
+   "requests": 1946
+  },
+  {
+   "dow": 6,
+   "hour_of_day": 18,
+   "requests": 1840
+  },
+  {
+   "dow": 6,
+   "hour_of_day": 19,
+   "requests": 1911
+  },
+  {
+   "dow": 6,
+   "hour_of_day": 20,
+   "requests": 2137
+  },
+  {
+   "dow": 6,
+   "hour_of_day": 21,
+   "requests": 2306
+  },
+  {
+   "dow": 6,
+   "hour_of_day": 22,
+   "requests": 2810
+  },
+  {
+   "dow": 6,
+   "hour_of_day": 23,
+   "requests": 2795
+  }
+ ],
+ "backlog_aging": [
+  {
+   "agency": "HPD",
+   "open_requests": 17144,
+   "age_under_7d": 6519,
+   "age_7_to_14d": 5300,
+   "age_14_to_21d": 2708,
+   "age_21d_plus": 2617,
+   "share_of_backlog_pct": 35.3
+  },
+  {
+   "agency": "DPR",
+   "open_requests": 10932,
+   "age_under_7d": 2668,
+   "age_7_to_14d": 2316,
+   "age_14_to_21d": 2707,
+   "age_21d_plus": 3241,
+   "share_of_backlog_pct": 22.5
+  },
+  {
+   "agency": "DOT",
+   "open_requests": 5407,
+   "age_under_7d": 1653,
+   "age_7_to_14d": 1556,
+   "age_14_to_21d": 1057,
+   "age_21d_plus": 1141,
+   "share_of_backlog_pct": 11.1
+  },
+  {
+   "agency": "DOHMH",
+   "open_requests": 3954,
+   "age_under_7d": 857,
+   "age_7_to_14d": 1043,
+   "age_14_to_21d": 842,
+   "age_21d_plus": 1212,
+   "share_of_backlog_pct": 8.1
+  },
+  {
+   "agency": "DEP",
+   "open_requests": 3692,
+   "age_under_7d": 1221,
+   "age_7_to_14d": 922,
+   "age_14_to_21d": 833,
+   "age_21d_plus": 716,
+   "share_of_backlog_pct": 7.6
+  },
+  {
+   "agency": "TLC",
+   "open_requests": 2742,
+   "age_under_7d": 523,
+   "age_7_to_14d": 615,
+   "age_14_to_21d": 665,
+   "age_21d_plus": 939,
+   "share_of_backlog_pct": 5.6
+  },
+  {
+   "agency": "DSNY",
+   "open_requests": 1800,
+   "age_under_7d": 814,
+   "age_7_to_14d": 315,
+   "age_14_to_21d": 294,
+   "age_21d_plus": 377,
+   "share_of_backlog_pct": 3.7
+  },
+  {
+   "agency": "DCWP",
+   "open_requests": 1154,
+   "age_under_7d": 208,
+   "age_7_to_14d": 305,
+   "age_14_to_21d": 274,
+   "age_21d_plus": 367,
+   "share_of_backlog_pct": 2.4
+  },
+  {
+   "agency": "DOB",
+   "open_requests": 535,
+   "age_under_7d": 59,
+   "age_7_to_14d": 130,
+   "age_14_to_21d": 116,
+   "age_21d_plus": 230,
+   "share_of_backlog_pct": 1.1
+  },
+  {
+   "agency": "EDC",
+   "open_requests": 484,
+   "age_under_7d": 89,
+   "age_7_to_14d": 131,
+   "age_14_to_21d": 129,
+   "age_21d_plus": 135,
+   "share_of_backlog_pct": 1.0
+  },
+  {
+   "agency": "OOS",
+   "open_requests": 364,
+   "age_under_7d": 57,
+   "age_7_to_14d": 79,
+   "age_14_to_21d": 102,
+   "age_21d_plus": 126,
+   "share_of_backlog_pct": 0.7
+  },
+  {
+   "agency": "DHS",
+   "open_requests": 318,
+   "age_under_7d": 4,
+   "age_7_to_14d": 94,
+   "age_14_to_21d": 147,
+   "age_21d_plus": 73,
+   "share_of_backlog_pct": 0.7
+  },
+  {
+   "agency": "OTI",
+   "open_requests": 20,
+   "age_under_7d": 5,
+   "age_7_to_14d": 2,
+   "age_14_to_21d": 2,
+   "age_21d_plus": 11,
+   "share_of_backlog_pct": 0.0
+  },
+  {
+   "agency": "NYPD",
+   "open_requests": 7,
+   "age_under_7d": 3,
+   "age_7_to_14d": 1,
+   "age_14_to_21d": 1,
+   "age_21d_plus": 2,
+   "share_of_backlog_pct": 0.0
+  }
+ ],
+ "kpis": {
+  "requests": 317936.0,
+  "resolved": 269383.0,
+  "still_open": 48553.0,
+  "closed_within_7d_pct": 77.8,
+  "closed_within_24h_pct": 58.0,
+  "median_hours": 4.2,
+  "excl_nypd_closed_within_7d_pct": 56.9,
+  "excl_nypd_median_hours": 56.8
+ }
+}
